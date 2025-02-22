@@ -12,7 +12,7 @@ function diceRoller(){
             values.push(value);
             images.push(`<img src='img/${value}.png' alt='${value}'>`)
         }
-        diceNumbers.textContent = `Dice: ${values.join(" ")}`;
+        diceNumbers.textContent = `Dice  ${values.join(" ")}`;
         diceImg.innerHTML = images.join(" ");
 
     }else{
